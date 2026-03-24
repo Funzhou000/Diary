@@ -11,5 +11,6 @@ public class App {
             MainFrame mainFrame = new MainFrame();
             mainFrame.setVisible(true); // 设置窗口为可见 (Make it visible)
         });
+
     }
 }

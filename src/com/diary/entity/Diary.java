@@ -1,6 +1,10 @@
 package com.diary.entity;
 
-public class Diary {
+import java.io.Serializable;
+
+public class Diary implements Serializable {
+    // 2. 建议添加 serialVersionUID（可选，但是推荐的做法）
+    private static final long serialVersionUID = 1L;
     private String title;
     private String content;
     private String id;
